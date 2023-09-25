@@ -1,5 +1,5 @@
 def adicao(n1: float, n2: float) -> float:
-    return n1 + 2
+    return n1 + n2
 
 
 def subtracao(n1: float, n2: float) -> float:
