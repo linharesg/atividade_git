@@ -1,5 +1,5 @@
-
-
+def adicao(n1: float, n2: float) -> float:
+    return n1 + 2
 
 
 
@@ -16,8 +16,10 @@ Informe a a operação para efetuar o cálculo entre dois números:
 
     match operacao:
         case "+":
-            pass
+            n1 = float(input("Insira o primeiro número a ser somado: "))
+            n2 = float(input("Insira o segundo número a ser somado: "))
 
+            input(f"A soma entre {n1} e {n2} é igual a {adicao(n1, n2)}")
 
 
         case "-":
